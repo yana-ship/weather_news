@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="地域を入力すると天気が出ます。">
+        <title>現在の天気（天気予報チャンネルTV2ndTTVビデオ）</title>
+    </head>
+    <body>
+        <h1>現在の天気（天気予報チャンネルTV2ndTTVビデオ）</h1>
+        <p>天気予報が見れます</p>
+        <select name="prefecture" id="prefecture">
+            <option>東京</option>
+            <option>名古屋</option>
+            <option>大阪</option>
+        </select>
+        <input type="button" value="送信する" onclick="submit()">
+        
+        <div id="weather"></div>
+        <div id="temperature"></div>
+        
+        <img id="image">
+
+        <script src="js/api.js"></script>  
+    </body>
+       
+</html>
